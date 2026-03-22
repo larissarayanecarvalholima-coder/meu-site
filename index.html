@@ -25,11 +25,13 @@
             --font-serif: 'Cormorant Garamond', serif;
             --font-sans: 'Montserrat', sans-serif;
         }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
@@ -38,6 +40,7 @@
             overflow-x: hidden;
             font-weight: 300;
         }
+
         /* --- TIPOGRAFIA --- */
         h1,
         h2,
@@ -46,16 +49,19 @@
             font-weight: 400;
             color: var(--text-color);
         }
+
         .italic {
             font-family: var(--font-serif);
             font-style: italic;
         }
+
         /* --- LAYOUT GERAL --- */
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 0 20px;
         }
+
         section {
             padding: 100px 0;
             opacity: 0;
@@ -63,10 +69,12 @@
             transform: translateY(20px);
             transition: all 1s ease-out;
         }
+
         section.visible {
             opacity: 1;
             transform: translateY(0);
         }
+
         /* --- HERO SECTION (CAPA) --- */
         .hero {
             height: 100vh;
@@ -76,17 +84,20 @@
             align-items: center;
             text-align: center;
         }
+
         .hero h1 {
             font-size: 4rem;
             margin-bottom: 20px;
             letter-spacing: -1px;
         }
+
         .hero p {
             font-size: 1.1rem;
             color: var(--accent-color);
             letter-spacing: 2px;
             text-transform: uppercase;
         }
+
         .scroll-indicator {
             position: absolute;
             bottom: 40px;
@@ -94,21 +105,25 @@
             opacity: 0.6;
             animation: bounce 2s infinite;
         }
+
         /* --- A CARTA (TEXTO) --- */
         .letter-content {
             font-size: 1.3rem;
             text-align: center;
             margin-bottom: 40px;
         }
+
         .letter-content p {
             margin-bottom: 30px;
         }
+
         .divider {
             width: 50px;
             height: 1px;
             background-color: var(--accent-color);
             margin: 40px auto;
         }
+
         /* --- GALERIA (MURAL) --- */
         .gallery-grid {
             display: grid;
@@ -116,15 +131,18 @@
             gap: 20px;
             margin-top: 40px;
         }
+
         .photo-frame {
             background: #fff;
             padding: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
             transition: transform 0.3s ease;
         }
+
         .photo-frame:hover {
             transform: translateY(-5px);
         }
+
         .photo-frame img {
             width: 100%;
             height: 300px;
@@ -133,6 +151,7 @@
             /* Filtro vintage suave */
             display: block;
         }
+
         .caption {
             margin-top: 15px;
             font-family: var(--font-serif);
@@ -140,11 +159,13 @@
             text-align: center;
             color: #666;
         }
+
         /* --- LISTA DE MOTIVOS --- */
         .reasons-list {
             list-style: none;
             padding: 0;
         }
+
         .reasons-list li {
             font-family: var(--font-serif);
             font-size: 1.5rem;
@@ -154,6 +175,7 @@
             display: flex;
             align-items: center;
         }
+
         .reasons-list li::before {
             content: "•";
             color: var(--accent-color);
@@ -161,6 +183,7 @@
             margin-right: 15px;
             line-height: 0;
         }
+
         /* --- FOOTER --- */
         footer {
             text-align: center;
@@ -168,8 +191,10 @@
             font-size: 0.8rem;
             opacity: 0.6;
         }
+
         /* --- ANIMAÇÕES --- */
         @keyframes bounce {
+
             0%,
             20%,
             50%,
@@ -177,28 +202,35 @@
             100% {
                 transform: translateY(0);
             }
+
             40% {
                 transform: translateY(-10px);
             }
+
             60% {
                 transform: translateY(-5px);
             }
         }
+
         /* --- RESPONSIVIDADE --- */
         @media (max-width: 600px) {
             .hero h1 {
                 font-size: 3rem;
             }
+
             .letter-content {
                 font-size: 1.1rem;
             }
+
             .reasons-list li {
                 font-size: 1.2rem;
             }
         }
     </style>
 </head>
+
 <body>
+
     <!-- SEÇÃO 1: CAPA -->
     <section class="hero visible">
         <p>Um cantinho nosso</p>
@@ -283,7 +315,6 @@
             <li>Eu te amo porque você conhece minhas inseguranças e mesmo assim me ama.</li>
         </ul>
     </section>
-
     <!-- SEÇÃO 5: LISTA DE MOTIVOS -->
     <section class="container">
         <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">𝑵𝒐𝒔𝒔𝒂 𝒑𝒍𝒂𝒚𝒍𝒊𝒔𝒕</h2>
@@ -292,17 +323,127 @@
                 style="width: 300px; border-radius: 30px;display: block; margin: auto;">
             <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">ﾒ𝟶</h2>
         </a>
-        <!DOCTYPE html>
-        <html>
+<!DOCTYPE html>
+<section class="container">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">Se eu pudesse voltar no tempo...</h2>
+</head> 
+<section class="container">
+        <div class="letter-content">
+            <p> 
+eu voltaria pra cada momento que me levou até você.  
+E mesmo sabendo de tudo, eu escolheria viver tudo de novo.  
+
+Te escolheria em todos os dias, em todas as versões, em todas as vidas.  
+Porque amar você foi, e sempre vai ser, a melhor escolha que eu já fiz. 
+            </p>
+<section class="container">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">Quando eu percebi que te amava.</h2>
+</head> 
+<section class="container">
+        <div class="letter-content">
+            <p> 
+Eu não percebi de uma vez…  
+foi nos detalhes.  
+
+Foi quando seu nome virou meu pensamento favorito,  
+quando qualquer coisa me fazia lembrar de você,  
+quando seu sorriso começou a mudar meu dia.  
+
+E quando eu me dei conta… já era amor.  
+Um amor calmo, forte e impossível de esconder.
+            </p>
+<section class="container">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">Quando sinto sua falta.</h2>
+</head> 
+<section class="container">
+        <div class="letter-content">
+            <p> 
+Tem dias que a saudade aperta de um jeito que dói.  
+
+Dá vontade de te abraçar,  
+de ouvir sua voz,  
+de simplesmente estar com você.  
+
+Mas mesmo na distância,  
+eu sinto você aqui…  
+porque você mora em mim.
+            </p>
+        </div>
+<!DOCTYPE html>
+<section class="container">
+        <h2 style="text-align: center; margin-bottom: 40px; font-size: 2rem;">𝑳𝒆𝒊𝒂 𝒒𝒖𝒂𝒏𝒅𝒐...</h2>
+</head>
+<body style="background:#ffffff; font-family:Arial; text-align:center;">
+
+<!-- Carta 1 -->
+<details>
+  <summary style="cursor:pointer; font-size:18px; margin:10px;">
+    𝑳𝒆𝒊𝒂 𝒒𝒖𝒂𝒏𝒅𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒕𝒓𝒊𝒔𝒕𝒆.
+  </summary>
+  <p>
+    𝑴𝒆𝒖 𝒂𝒎𝒐𝒓, 𝒆𝒖 𝒒𝒖𝒆𝒓𝒊𝒂 𝒆𝒔𝒕𝒂𝒓 𝒂𝒊́ 𝒂𝒈𝒐𝒓𝒂 𝒑𝒓𝒂 𝒕𝒆 𝒂𝒃𝒓𝒂𝒄̧𝒂𝒓 𝒃𝒆𝒎 𝒇𝒐𝒓𝒕𝒆.
+    𝑳𝒆𝒎𝒃𝒓𝒂 𝒒𝒖𝒆 𝒗𝒐𝒄𝒆̂ 𝒆́ 𝒊𝒏𝒄𝒓𝒊́𝒗𝒆𝒍, 𝒇𝒐𝒓𝒕𝒆 𝒆 𝒄𝒂𝒑𝒂𝒛 𝒅𝒆 𝒕𝒖𝒅𝒐. 
+    𝑬𝒖 𝒔𝒆𝒎𝒑𝒓𝒆 𝒗𝒐𝒖 𝒆𝒔𝒕𝒂𝒓 𝒂𝒒𝒖𝒊 𝒑𝒐𝒓 𝒗𝒐𝒄𝒆̂, 𝒆𝒎 𝒒𝒖𝒂𝒍𝒒𝒖𝒆𝒓 𝒎𝒐𝒎𝒆𝒏𝒕𝒐.
+  </p>
+</details>
+
+<!-- Carta 2 -->
+<details>
+  <summary style="cursor:pointer; font-size:18px; margin:10px;">
+    𝑳𝒆𝒊𝒂 𝒂𝒏𝒕𝒆𝒔 𝒅𝒆 𝒅𝒐𝒓𝒎𝒊𝒓.
+  </summary>
+  <p>
+   𝑩𝒐𝒂 𝒏𝒐𝒊𝒕𝒆, 𝒎𝒆𝒖 𝒂𝒎𝒐𝒓. 𝑫𝒐𝒓𝒎𝒆 𝒃𝒆𝒎 𝒆 𝒔𝒐𝒏𝒉𝒂 𝒄𝒐𝒎𝒊𝒈𝒐. 
+   𝑸𝒖𝒆𝒓𝒐 𝒒𝒖𝒆 𝒗𝒐𝒄𝒆̂ 𝒔𝒂𝒊𝒃𝒂 𝒒𝒖𝒆 𝒇𝒐𝒊 𝒖𝒎𝒂 𝒅𝒂𝒔 𝒎𝒆𝒍𝒉𝒐𝒓𝒆𝒔 𝒄𝒐𝒊𝒔𝒂𝒔 𝒒𝒖𝒆 𝒋𝒂́ 𝒎𝒆 𝒂𝒄𝒐𝒏𝒕𝒆𝒄𝒆𝒓𝒂𝒎. 
+   𝑻𝒆 𝒂𝒎𝒐 𝒎𝒂𝒊𝒔 𝒅𝒐 𝒒𝒖𝒆 𝒄𝒐𝒏𝒔𝒊𝒈𝒐 𝒆𝒙𝒑𝒍𝒊𝒄𝒂𝒓.
+  </p>
+</details>
+
+<!-- Carta 3 -->
+<details>
+  <summary style="cursor:pointer; font-size:18px; margin:10px;">
+    𝑳𝒆𝒊𝒂 𝒒𝒖𝒂𝒏𝒅𝒐 𝒔𝒆𝒏𝒕𝒊𝒓 𝒔𝒂𝒖𝒅𝒂𝒅𝒆.
+  </summary>
+  <p>
+    𝑺𝒆 𝒗𝒐𝒄𝒆̂ 𝒆𝒔𝒕𝒂́ 𝒄𝒐𝒎 𝒔𝒂𝒖𝒅𝒂𝒅𝒆, 𝒊𝒎𝒂𝒈𝒊𝒏𝒂 𝒆𝒖... 
+    𝑸𝒖𝒆𝒓𝒊𝒂 𝒆𝒔𝒕𝒂𝒓 𝒄𝒐𝒎 𝒗𝒐𝒄𝒆̂ 𝒂𝒈𝒐𝒓𝒂, 𝒓𝒊𝒏𝒅𝒐, 𝒄𝒐𝒏𝒗𝒆𝒓𝒔𝒂𝒏𝒅𝒐 𝒐𝒖 𝒔𝒐́ 𝒇𝒊𝒄𝒂𝒏𝒅𝒐 𝒋𝒖𝒏𝒕𝒊𝒏𝒉𝒐𝒔. 
+    𝑳𝒐𝒈𝒐 𝒍𝒐𝒈𝒐 𝒏𝒐𝒔 𝒗𝒆𝒓𝒆𝒎𝒐𝒔 𝒅𝒆 𝒏𝒐𝒗𝒐.
+  </p>
+</details>
+
+<!-- Carta 4 -->
+<details>
+  <summary style="cursor:pointer; font-size:18px; margin:10px;">
+    𝑳𝒆𝒊𝒂 𝒒𝒖𝒂𝒏𝒅𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓 𝒇𝒆𝒍𝒊𝒛.
+  </summary>
+  <p>
+    𝑬𝒖 𝒂𝒎𝒐 𝒗𝒆𝒓 𝒗𝒐𝒄𝒆̂ 𝒇𝒆𝒍𝒊𝒛! 
+    𝑨𝒑𝒓𝒐𝒗𝒆𝒊𝒕𝒂 𝒄𝒂𝒅𝒂 𝒎𝒐𝒎𝒆𝒏𝒕𝒐 𝒆 𝒏𝒖𝒏𝒄𝒂 𝒆𝒔𝒒𝒖𝒆𝒄𝒆 𝒐 𝒒𝒖𝒂𝒏𝒕𝒐 𝒗𝒐𝒄𝒆̂ 𝒎𝒆𝒓𝒆𝒄𝒆 𝒕𝒖𝒅𝒐 𝒊𝒔𝒔𝒐. 
+    𝑬 𝒄𝒍𝒂𝒓𝒐... 𝒒𝒖𝒆𝒓𝒐 𝒆𝒔𝒕𝒂𝒓 𝒂𝒐 𝒔𝒆𝒖 𝒍𝒂𝒅𝒐 𝒆𝒎 𝒄𝒂𝒅𝒂 𝒄𝒐𝒏𝒒𝒖𝒊𝒔𝒕𝒂. 
+    𝑺𝒖𝒂 𝒇𝒆𝒍𝒊𝒄𝒊𝒅𝒂𝒅𝒆 𝒆́ 𝒎𝒊𝒏𝒉𝒂 𝒇𝒆𝒍𝒊𝒄𝒊𝒅𝒂𝒅𝒆 𝒕𝒂𝒎𝒃𝒆𝒎!
+  </p>
+</details>
+
+<!-- Carta 5 -->
+<details>
+  <summary style="cursor:pointer; font-size:18px; margin:10px;">
+    𝑳𝒆𝒊𝒂 𝒒𝒖𝒂𝒏𝒅𝒐 𝒆𝒔𝒕𝒊𝒗𝒆𝒓𝒎𝒐𝒔 𝒃𝒓𝒊𝒈𝒂𝒅𝒐𝒔.
+  </summary>
+  <p>
+    𝑴𝒆𝒔𝒎𝒐 𝒒𝒖𝒂𝒏𝒅𝒐 𝒂 𝒈𝒆𝒏𝒕𝒆 𝒃𝒓𝒊𝒈𝒂, 𝒆𝒖 𝒏𝒖𝒏𝒄𝒂 𝒅𝒆𝒊𝒙𝒐 𝒅𝒆 𝒕𝒆 𝒂𝒎𝒂𝒓. 
+    𝑽𝒐𝒄𝒆̂ 𝒆́ 𝒎𝒖𝒊𝒕𝒐 𝒊𝒎𝒑𝒐𝒓𝒕𝒂𝒏𝒕𝒆 𝒑𝒓𝒂 𝒎𝒊𝒎 𝒆 𝒔𝒆𝒎𝒑𝒓𝒆 𝒗𝒂𝒊 𝒔𝒆𝒓. 
+    𝑨 𝒈𝒆𝒏𝒕𝒆 𝒗𝒂𝒊 𝒓𝒆𝒔𝒐𝒍𝒗𝒆𝒓 𝒕𝒖𝒅𝒐, 𝒑𝒐𝒓𝒒𝒖𝒆 𝒏𝒐𝒔𝒔𝒐 𝒂𝒎𝒐𝒓 𝒗𝒂𝒍𝒆 𝒂 𝒑𝒆𝒏𝒂. 
+    (𝒆 𝒑𝒓𝒐𝒗𝒂𝒗𝒆𝒍𝒎𝒆𝒏𝒕𝒆 𝒗𝒐𝒄𝒆̂ 𝒆𝒔𝒕𝒂́ 𝒆𝒓𝒓𝒂𝒅𝒐, 𝒑𝒒 𝒗𝒐𝒄𝒆̂ 𝒆́ 𝒔𝒐𝒓𝒕𝒖𝒅𝒐 𝒅𝒆 𝒕𝒆𝒓 𝒖𝒎𝒂 𝒎𝒖𝒍𝒉𝒆𝒓 𝒒𝒖𝒆 𝒏𝒖𝒏𝒄𝒂 𝒆𝒔𝒕𝒂́ 𝒆𝒓𝒓𝒂𝒅𝒂).
+  </p> 
+</details>
+    </p>
         <head>
-    
-</body>
-</html>
             <title>Meus Vídeos</title>
         </head>
         <body>
-            <h1>𝑬 𝒂𝒊𝒏𝒅𝒂 𝒏𝒂̃𝒐 𝒂𝒄𝒂𝒃𝒐𝒖... 𝒗𝒂𝒎𝒐𝒔 𝒇𝒊𝒏𝒂𝒍𝒊𝒛𝒂𝒓 𝒄𝒐𝒎 𝒐𝒔 𝒏𝒐𝒔𝒔𝒐𝒔
+            <h1>𝑬 𝒂𝒊𝒏𝒅𝒂 𝒏𝒂̃𝒐 𝒂𝒄𝒂𝒃𝒐𝒖... 𝒗𝒂𝒎𝒐𝒔 𝒇𝒊𝒏𝒂𝒍𝒊𝒛𝒂𝒓 𝒄𝒐𝒎 𝒐𝒔 𝒏𝒐𝒔𝒔𝒐𝒔 
                 𝒎𝒆𝒍𝒉𝒐𝒓𝒆𝒔 𝒎𝒐𝒎𝒆𝒏𝒕𝒐𝒔🎬</h1>
+
             <h3>.</h3>
             <video width="400" controls>
                 <source src="video1.mp4" type="video/mp4">
@@ -324,13 +465,14 @@
             </video>
 
         </body>
-        </html>
 
+        </html>
         <!-- SEÇÃO 6: FINAL -->
         <section class="container" style="text-align: center; padding-bottom: 150px;">
             <h2 class="italic" style="font-size: 2.5rem; margin-bottom: 20px;">Sempre nós.</h2>
             <p>Larissa Rayane</p>
         </section>
+
         <footer>
             <p>Feito com todo amor do mundo.</p>
         </footer>
@@ -343,6 +485,7 @@
                 rootMargin: '0px',
                 threshold: 0.1
             };
+
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
@@ -351,9 +494,11 @@
                     }
                 });
             }, observerOptions);
+
             document.querySelectorAll('section').forEach(section => {
                 observer.observe(section);
             });
         </script>
 </body>
+
 </html>
